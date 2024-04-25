@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		 <meta charset="UTF-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="icon" href="path/to/favicon.ico" type="image/x-icon">
+
+		 <title>Talkie.FM</title>
+		 <style>
+				@font-face {
+					font-family: 'Runescape';
+					src: url('runescape.ttf');
+				}
+
+				html, body {
+					 height: 100%; /* Ensure full viewport height */
+					 margin: 0; /* Remove default margin */
+					 padding: 0; /* Remove default padding */
+				}
+
+			  body {
+					background-image: url('background.webp');
+					background-size: cover;
+					background-repeat: no-repeat; /* Prevent background from repeating */
+					 background-position: center center; /* Center the background image */
+    background-attachment: fixed; /* Optional: keeps the background image fixed during scrolling */
+			  }
+
+			  #title {
+					font-family: Runescape, serif;
+					background: white;
+					 color: #000;
+					 font-size: 22px;
+						 padding: 0 10px;
+			  }
+
+			  #content {
+				 text-align: left;
+					font-family: monospace, sans-serif;
+					color: white;
+			  }
+
+			  .blackbox-text-hero {
+				  background: #000;
+				  margin: 50px;
+					padding: 8px 11px;
+			  }
+
+			  #content p {
+					margin: 0;
+			  }
+
+			  #zinger {
+				 /* background: linear-gradient(to right, blue, red); */
+			  }
+		 </style>
+	</head>
+
+	<body>
+		<div id='content'>
+			<div class='blackbox-text-hero' id='title'>
+				 <h1>Talkie.FM</h1>
+			</div>
+
+			<div class='blackbox-text-hero'>
+				 <p>It isn't a cell phone.</p>
+				 <p>It isn't an assistant.</p>
+				 <p>You don't use it every day, or for every call.</p>
+				 <p>Talkie is a tool, and when you need it, you'll know.</p>
+			</div>
+
+			 <div class='blackbox-text-hero'>
+				 <p id='zinger'>This webpage is under active development. Last updated: 4/24/24.</p>
+			</div>
+
+		</div>
+	</body>
+</html>
